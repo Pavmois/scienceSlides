@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru"></html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Занимательная наука</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<div class="page">
+		<!--3 точки меню-->
+		<div class="threePoints">
+			<div class="threePoints__points point1"></div>
+			<div class="threePoints__points point2"></div>
+			<div class="threePoints__points point3"></div>
+		</div>
+		<!--Все слайды-->
+		<div id="container" >
+			<img class="scrollDown" src="images/scrollDown.png">
+			<div class="container__slide">
+				<ring-of-fire1 class="round1"></ring-of-fire1>
+				<ring-of-fire2 class="round2"></ring-of-fire2>
+				<ring-of-fire3 class="round3"></ring-of-fire3>
+				<ring-of-fire4 class="round4"></ring-of-fire4>
+				<img src="images/slide1.jpg">
+			</div>
+			<div class="container__slide">
+				<img class="scrollDown2" src="images/scrollDown.png">
+				<img src="images/slide2.jpg">
+			</div>
+			<div>
+				<!--Нижние 3 слайда с кучей информации-->
+				<div class="infoSlides">
+					<div class="slide1"><img src="images/slide5.jpg"></div>
+					<div class="slide2"><img src="images/slide4.jpg"></div>
+					<div class="slide3"><img src="images/slide3.jpg"></div>
+				</div>
+				<!--Линия перемотки слайдов по годам-->
+				<div class="yearsLine">
+					<img class="slider" src="images/toggle2.png">
+					<img src="images/toggle.png" style="width: 630px; margin-top: 65px; margin-left: 200px;">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="./index.js"></script>
+<script type="text/javascript" src="js/ringsOfFire.js"></script>
+<script type="text/javascript" src="js/showslides.js"></script>
+</html>

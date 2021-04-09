@@ -1,0 +1,8 @@
+.threePoints__points{
+    height: 14px; 
+    width: 14px; 
+    border-radius: 7px;  
+    background-color: white;
+    margin: 10px; 
+    transition: 0.5s; 
+  }

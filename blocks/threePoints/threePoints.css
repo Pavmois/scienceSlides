@@ -1,0 +1,7 @@
+@import url(./__points/threePoints__points.css);
+.threePoints{
+    position: fixed;
+    z-index: 5; 
+    top: 343px;
+    left: 980px; 
+  }

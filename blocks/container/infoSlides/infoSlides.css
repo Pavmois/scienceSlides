@@ -1,0 +1,6 @@
+.infoSlides{
+    display: flex;
+    flex-direction: row;
+    width: 3072px; 
+    transform: translateX(-2048px);
+  }

@@ -1,0 +1,27 @@
+@import url(./blocks/container/container.css);
+@import url(./blocks/threePoints/threePoints.css);
+* {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+.page{
+  height: 768px; 
+  width: 1024px;
+  overflow: hidden;
+}
+
+.animate0{
+  transition: all 0.4s ease-in-out; 
+}
+
+.animate1{
+  transition: all 0.4s ease-in-out; 
+}
+
+.animate2{
+  transition: all 0.2s ease-in-out; 
+}
